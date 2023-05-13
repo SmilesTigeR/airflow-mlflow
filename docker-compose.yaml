@@ -55,7 +55,6 @@ x-airflow-common:
     dockerfile: airflow.Dockerfile
   environment:
     &airflow-common-env
-    AIRFLOW_UID: ${AIRFLOW_UID}
     RDS_HOST: ${RDS_HOST}
     RDS_PORT: ${RDS_PORT}
     RDS_NAME: ${RDS_NAME}
