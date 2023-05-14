@@ -1,4 +1,5 @@
 FROM apache/airflow:2.5.3
+WORKDIR /app
 
 COPY ./ ./
 RUN pip install --upgrade pip setuptools wheel
